@@ -18,3 +18,80 @@ body {
     max-width: 1200px;
     margin: 0 auto;
 }
+
+.container-small{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.blu-button{
+    background-color: blue;
+    color: white;
+}
+
+.white-button{
+    background-color: white;
+}
+
+/* 
+    DEBUG
+*/
+.debug, .header-top{
+    height: 80px;
+    background-color: lightcoral;
+}
+
+
+
+
+
+/* 
+    HEADER
+*/
+
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+
+
+
+
+
+
+
+
+.header-bottom{
+    background-color: #B4D0E7;
+}
+
+.header-bottom-row{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+    MAIN
+*/
+
+
+
+
+
+
+
+
+/* 
+    FOOTER
+*/
