@@ -89,6 +89,11 @@ body {
     background-color: #B4D0E7;
 }
 
+.jumbotron{
+    position: relative;
+    top: 75px;
+}
+
 .header-bottom-row{
     display: flex;
 }
@@ -102,6 +107,7 @@ body {
 
 .header-bottom-col-1{
     width: calc(100% / 3);
+    padding-right: 50px;
 }
 
 .header-bottom-col-1 button{
@@ -115,7 +121,7 @@ body {
 
 .header-bottom-col-1 div i{
     font-size: 3em;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .header-bottom-col-2{
@@ -129,21 +135,158 @@ body {
 }
 
 
-
-
-
-
-
-
-
-
-
-
 /* 
     MAIN
 */
 
 /*SECTION-1*/
+
+
+.price-section-title{
+    margin-top: 100px;
+    font-size: 1.5em;
+}
+
+.price-section-invoice{
+    display: flex;
+
+}
+
+.selection-button{
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: solid blue 5px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.selection-title{
+    vertical-align: middle;
+}
+
+
+.price-section-invoice-1{
+    margin-top: 30px;
+    padding-right: 20px;
+
+}
+
+.price-section-invoice-2{
+    margin-top: 30px;
+
+}
+
+.price-section-invoice-2 .selection-button{
+    border: solid 2px black;
+}
+
+
+
+
+
+.price-section{ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+
+.price-section-col{
+    margin-top: 50px;
+    border: 2px solid black;
+    width: 30%;
+    
+}
+
+.price-section-col-full{
+    margin-top: 50px;
+    border: 2px solid black;
+    width: 100%;
+    position: relative;
+    
+}
+
+.price-section-col-header{
+    border-bottom: solid 2px black;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.price-section-col-main{
+    max-width: 80%;
+    margin: 0 auto;
+    padding-top: 30px;
+    line-height: 30px;
+}
+
+.price-section-col-main ul{
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+}
+
+
+.price-section-col-main ul li{
+    list-style: none;
+    margin-top: 20px;
+    line-height: 20px;
+    display: flex;
+
+    
+}
+
+.price-section-col-main ul li i{
+    padding-right: 5px;
+}
+
+.trial-button{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.trial-button .blu-button{
+    padding: 10px 42px;
+
+}
+
+.price-link{
+    margin-top: 20px;
+}
+
+.price-section-col-main hr{
+    margin-top: 20px;
+    max-width: 20%;
+    
+}
+
+.price-bottom-list h4{
+    margin-top: 30px;
+}
+
+.price-bottom-list ul li{
+    list-style-type: none;
+    display: flex;
+
+}
+
+.price-section-col-full .price-section-col-main .trial-button .blu-button{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
