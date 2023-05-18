@@ -599,6 +599,29 @@ body {
 /*SECTION-5*/
 
 
+.questions-section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.questions-section div h3{
+    padding-bottom: 50px;
+    font-size: 2em;
+}
+
+
+.question-section-row{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.question-section-row i{
+    padding-right: 30px;
+}
+
+
 
 
 
