@@ -54,11 +54,13 @@ body {
     display: flex;
     justify-content: space-between;
     padding-top: 25px;
+    padding-bottom: 20px;
     background-color: white;
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
+    z-index: 1;
 }
 
 .header-top-col{
@@ -109,7 +111,7 @@ body {
     text-align: left;
     font-size: 2.4em;
     padding-bottom: 50px;
-    padding-top: 20px;
+    padding-top: 70px;
 }
 
 .header-bottom-col-1{
@@ -379,6 +381,13 @@ body {
     width: calc(100% / 3);
     height: calc(100vw / 3);
 }
+
+.brand-section-top-col-small{
+    width: 50%;
+    height: 50%;
+}
+
+
 
 
 
