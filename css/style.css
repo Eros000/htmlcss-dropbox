@@ -54,6 +54,11 @@ body {
     display: flex;
     justify-content: space-between;
     padding-top: 25px;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
 }
 
 .header-top-col{
@@ -368,23 +373,28 @@ body {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*SECTION-4*/
+
+.brand-section-top-col{
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
