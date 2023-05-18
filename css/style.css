@@ -575,7 +575,8 @@ body {
 
 .brand-section-bottom-col-1{
     width: 70%;
-    font-size: 1.5em; 
+    font-size: 1.5em;
+    padding-right: 150px; 
     
 }
 
@@ -622,32 +623,80 @@ body {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* 
     FOOTER
 */
+
+
+footer{
+    background-color: black;
+}
+
+.footer-top{
+    display: flex;
+    
+    
+}
+
+.footer-top-col{
+    width: calc(100% / 5);
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: white;
+}
+
+.footer-top-col h3{
+    padding-bottom: 20px;
+}
+
+.footer-top-col a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding-bottom: 15px;
+}
+
+
+
+.footer-bottom{
+    width: calc(100% / 5);
+}
+
+
+.footer-bottom-col hr{
+    width: 50%;
+}
+
+
+
+.footer-bottom-col div{
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer-bottom-col div i{
+    padding-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
